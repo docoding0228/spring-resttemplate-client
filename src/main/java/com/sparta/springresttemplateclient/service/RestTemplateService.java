@@ -127,6 +127,7 @@ public class RestTemplateService {
         for (Object item : items) {
             ItemDto itemDto = new ItemDto((JSONObject) item);
             itemDtoList.add(itemDto);
+
         }
 
         return itemDtoList;
